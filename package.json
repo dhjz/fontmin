@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "14-fontmin2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fontmin": "^2.0.0"
+  }
+}
