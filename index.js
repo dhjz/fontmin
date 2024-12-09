@@ -7,5 +7,7 @@ minFont({
   src: './fonts/*.ttf',
   dest: path.resolve('./build'),
   text: Texts.NORMAL_2000_ALL,
-  fontName: 'fontName',
+  // fontName: 'fontName',
+  // src: './fonts/test.ttf',
+  // isDel: true
 })
