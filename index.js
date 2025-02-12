@@ -16,7 +16,9 @@ console.log('args type:', type);  // 输出获取到的 type 值
 minFont({
   src: './fonts/*.ttf',
   dest: path.resolve('./build'),
-  text: type == '7000' ? Texts.NORMAL_7000 : Texts.NORMAL_2000_ALL,
+  text: type == '7000' ? Texts.NORMAL_7000 : 
+    type == '3500' ? Texts.NORMAL_3500_ALL : 
+    Texts.NORMAL_2000_ALL,
   // fontName: 'fontName',
   // src: './fonts/test.ttf',
   // isDel: true
