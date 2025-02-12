@@ -12,5 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "fontmin": "^2.0.0"
+  },
+  "bin": "./index.js",
+  "pkg": {
+
+    "targets": [
+      "node16-win-x64"
+    ]
   }
 }

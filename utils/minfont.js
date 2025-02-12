@@ -7,7 +7,7 @@ export function minFont(options = {}) {
     try {
       // to: ['woff', 'svg', 'eot', 'ttf', 'css']
       const { src, dest, text, fontName, to = ['woff', 'svg', 'eot', 'ttf', 'css'], isDel } = options;
-      console.log('minFont options ->', src, dest, fontName, to);
+      console.log('minFont options ->', src, dest, fontName, to, text.length, isDel);
 
       const fontmin = new Fontmin().src(src).dest(dest)
       fontmin.use(Fontmin.glyph({
